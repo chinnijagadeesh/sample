@@ -3,7 +3,6 @@ import {
     ListItem,
     ListIcon,
   } from '@chakra-ui/react';
-
   import { Typography } from '@mui/material';
 import { MdCheckCircle, MdOutlineWarningAmber } from "react-icons/md";
   function Call() {
@@ -11,7 +10,7 @@ import { MdCheckCircle, MdOutlineWarningAmber } from "react-icons/md";
   
   
     return (
-       <div  style={{width:"90%",margin:{"7rem auto"}}} >
+       <div  >
     <Typography style={{fontWeight:"600",fontSize:"42px", margin:"2rem 0" ,color:"violet"}}>Key Points To Achieve Success</Typography>
 
 <List  fontSize={"1.8rem"}   spacing={5}>

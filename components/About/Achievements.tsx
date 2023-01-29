@@ -2,8 +2,8 @@ import React from 'react'
 import styles from "../../styles/Achieve.module.css"
 import { Typography } from '@mui/material';
 const Achievements = () => {
-  return (
-    <div className={styles.About_Ach}>
+  return ( 
+    <div  className={styles.About_Ach}>
          <div className={styles.container}>
          <div className={styles.left}>
             <img width="100%" src="achievement.svg" alt="achievement"/>
